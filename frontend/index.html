@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>URL Shortener Microservice | freeCodeCamp.org</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png" />
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>URL Shortener Microservice</h1>
+  <div>
+    <form action="/api/shorturl" method="POST">
+      <ul>
+        <li>
+          <label for="url_input">URL : </label>
+          <input id="url_input" type="text" name="url" placeholder="https://github.com/Yashh918" />
+        </li>
+        <li class="button">
+          <button type="submit">Post Url</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</body>
+
+</html>
